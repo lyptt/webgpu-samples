@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  padding-top: 60px;
+}
+
+#backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background: white;
+}
+
+#numbersInput {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 300px;
+}
+
+#runButton {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+p {
+  margin: 0;
+  padding: 10px;
+}
+
+code,
+pre {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+}
